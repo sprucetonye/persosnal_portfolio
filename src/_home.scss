@@ -1,0 +1,87 @@
+.home{
+
+    .logo {
+        background: white;
+        height: 100px;
+        width: 200px;
+
+    }
+    .info-section{
+        padding: 54px;
+        width: 35%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        .info-box{
+            position: absolute;
+            bottom: 60px;
+            
+            h4{
+                font-size: 1.2rem;
+                color: $color3;
+                margin: 0.7rem 0;
+            }
+            p{
+                font-size: 1.1rem;
+                font-weight: 300;
+                color: $color3;
+                margin: 0.2rem 0  1.6rem;
+            }
+        }
+    }
+    .content-area{
+        margin-left: 35%;
+        width: 56%;
+        position: abslute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: white;
+        height: 100%;
+        padding: 0 0 0 25%;
+
+        .img-container{
+            position: relative;
+            display: inline-block;
+            width: 30%;
+            height: 100%;
+
+
+            .user-img {
+                position: absolute;
+                left: -250px;
+                top: 56px;
+                width: 500px;
+                height: calc(100% - 112px );
+                background: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fangelicakrystledonati%2Ffiles%2F2019%2F04%2FGuy-Grainger_hi-res_colour_Q2-2017-1200x936.jpg") no-repeat center center; 
+                    width: 400px;
+                    height: 500px;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+            }
+    
+        }
+        .profile-section {
+            vertical-align: top;
+            display: inline-block;
+           
+
+            .profile {
+                h1{
+                    font-size: 2.3rem;
+                    font-weight: 700;
+                    span{
+                        color: $color1;
+                    }
+                }
+              
+            }
+        }
+       
+       
+    }
+}
